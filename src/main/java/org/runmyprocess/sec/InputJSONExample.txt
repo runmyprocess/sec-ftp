@@ -1,0 +1,6 @@
+{
+"protocol":"FTP",
+"data":{
+		"path":"log2.txt"
+	} 
+}

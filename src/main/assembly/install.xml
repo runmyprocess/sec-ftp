@@ -1,0 +1,26 @@
+<assembly>
+    <id>install</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <includeBaseDirectory>true</includeBaseDirectory>
+    <fileSets>
+        <fileSet>
+            <outputDirectory>/configFiles</outputDirectory>
+            <includes>
+                <include>*</include>
+            </includes>
+            <directory>src/main/configFiles</directory>
+            <filtered>false</filtered>
+        </fileSet>
+        <fileSet>
+            <outputDirectory>/</outputDirectory>
+            <includes>
+                <include>rmp-sec-ftp-${project.version}.jar</include>
+            </includes>
+            <directory>target</directory>
+        </fileSet>
+    </fileSets>
+
+</assembly>
+
